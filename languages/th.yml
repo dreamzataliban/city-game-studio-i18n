@@ -239,7 +239,7 @@ th:
   LABEL_MARKET_RESEARCH_TYPE: ประเภทวิจัยการตลาด
   LABEL_GAME_TYPE_LIST: รายการประเภทเกม
   LABEL_MARKET_RESEARCH_TARGET_AUDIENCE: วิเคราะห์กลุ่มเป้าหมาย
-  LABEL_MARKET_RESEARCH_NONE: No active market research
+  LABEL_MARKET_RESEARCH_NONE: ไม่มีการวิจัยตลาดที่ใช้งานอยู่
   LABEL_UNIVERSITY_TRAINING_ENDED_TITLE: ห้องเรียนพร้อมใช้งาน
   LABEL_UNIVERSITY_TRAINING_ENDED_DESCRIPTION: |
     ยินดีด้วย การฝึกอบรมเพิ่งสิ้นสุดลง
@@ -528,27 +528,27 @@ th:
   LABEL_PLATFORM_MANUFACTURER_GOODBYE: |
     ขอบคุณสำหรับเวลาของคุณ
   LABEL_VIDEO_GAME_KRACH_1983_DESCRIPTION: |
-    After the poor results in the last quarter of 1982 and early 1983, Wataggi announces declining results
-    in the console market. The leader in video games is far from reaching its objectives by selling a few
-    hundred consoles and barely some 2500 cassettes. The health report is also largely negative as far as
-    home computers are concerned, which confirms the uncertainties that characterize this market today.
+    หลังจากผลการดําเนินงานที่ไม่ดีในไตรมาสสุดท้ายของปี 1982 และต้นปี 1983 Wataggi 
+    ประกาศผลการดําเนินงานที่ลดลงในตลาดเกมคอนโซล ผู้นําของวิดีโอเกมอยู่ห่างไกลจากการขายเกมไม่กี่เกมเพื่อบรรลุเป้าหมาย
+    เครื่องเล่นเกมเป็นร้อยๆเครื่องและเทป 2,500 กล่อง รายงานด้านสุขภาพส่วนใหญ่เป็นลบ คอมพิวเตอร์ในบ้านได้รับความสนใจยืนยันความไม่แน่นอนของตลาดในปัจจุบัน
 
-    The major players in the video game industry are expecting difficult months
-    ahead and there is no indication today that things will improve.
+    ผู้เล่นหลักในอุตสาหกรรมวิดีโอเกมคาดว่าจะมีเดือนที่ยากลําบาก
+    วันนี้ไม่มีสัญญาณว่าสถานการณ์จะดีขึ้น
   LABEL_VIDEO_GAME_KRACH_1983_TITLE: |
-    The market is collapsing
+    ตลาดกําลังล่มสลาย
   LABEL_VIDEO_GAME_PREKRACH_1983_DESCRIPTION: |
-    In the middle of the summer, Wataggi, the leader in the video game market, announced losses of $356 million.
-    Plastics was experiencing very serious difficulties and was withdrawing from the market. The rumor was that
-    the video game market was collapsing to make way for microcomputers.
+    ในช่วงกลางฤดูร้อน Watagi ผู้นําตลาดวิดีโอเกมประกาศขาดทุน 356 ล้านดอลลาร์
+    Plastics ประสบปัญหาอย่างหนัก และกำลังขาดตลาด มีข่าวลือว่า
+    ตลาดวิดีโอเกมกําลังล่มสลาย หลีกทางให้ไมโครคอมพิวเตอร์
 
-    In fact, the losses of Wataggi and Plastics, relayed by the fall of the shares on the New York Stock Exchange,
-    created an unjustified panic. With 2 billion dollars in annual sales in the United States, video games remain
-    a solid industry. But the spectacular growth of the last two years has levelled off somewhat. The market is
-    moving both up-market, where Roberto Industries' RobertoVision console competes with home microcomputers -
-    and down-market, for devices with a satisfactory price/performance ratio.
+    ในความเป็นจริง การขาดทุนของ Wataggi และ Plastics 
+    ซึ่งเกิดจากการร่วงลงของหุ้นในตลาดหลักทรัพย์นิวยอร์กทำให้เกิดความตื่นตระหนกอย่างไม่ยุติธรรม 
+    ด้วยยอดขายต่อปี 2 พันล้านดอลลาร์ในสหรัฐอเมริกา วิดีโอเกมยังคงเป็นอุตสาหกรรมที่แข็งแกร่ง 
+    แต่การเติบโตอย่างน่าทึ่งในช่วงสองปีที่ผ่านมากลับลดลงบ้าง ตลาดกำลังเคลื่อนตัวทั้งตลาดขาขึ้น 
+    โดยคอนโซล RobertoVision ของ Roberto Industries แข่งขันกับไมโครคอมพิวเตอร์ในบ้านและตลาดล่าง 
+    สำหรับอุปกรณ์ที่มีอัตราส่วนราคา/ประสิทธิภาพที่น่าพอใจ
   LABEL_VIDEO_GAME_PREKRACH_1983_TITLE: |
-    The market is stabilizing
+    ตลาดมีเสถียรภาพ
   LABEL_PLATFORM_TYPE: ประเภทแพลตฟอร์ม
   LABEL_PLATFORM_OS: PC
   LABEL_PLATFORM_CONSOLE: คอนโซล
@@ -558,8 +558,8 @@ th:
     เลือกฟีเจอร์ที่จะอัปเดตเพื่อตอบสนอง
     ความคาดหวังของผู้เล่น
   TOOLTIP_UPGRADE_OLD_GAMEENGINE: |
-    When updating a game engine a penalty applies,
-    it impacts only the number of required points.
+    เมื่ออัปเดตเอ็นจิ้นเกมจะมีบทลงโทษ,
+    มีผลกับจำนวนคะแนนที่ต้องการเท่านั้น
   LABEL_TOO_MUCH_TIME_SPENT: |
     Either your development team is not balanced enough,
     or you have spent a lot more time on the %s compared
@@ -668,18 +668,16 @@ th:
 
     Regards,
     BinoPal
-  LABEL_GAMEENGINE_FEATURE_TITLE: New feature implemented
+  LABEL_GAMEENGINE_FEATURE_TITLE: ฟังก์ชั่นใหม่ที่ประสบความสำเร็จ
   LABEL_GAMEENGINE_FEATURE_DESCRIPTION: |
-    Hello,
+    สวัสดี,
 
-    [b]%s[/b] is in a fast-growing community.
-    They've implemented a new feature:
-    [b]%s[/b]
+    [b]%s[/b] ในชุมชนที่กําลังเติบโตอย่างรวดเร็ว พวกเขาใช้ฟังก์ชันใหม่: [b]%s[/b]
 
-    It is free of charge!
+    ไม่มีค่าใช้จ่าย!
   LABEL_GAME_ENGINE_TITLE: เทคโนโลยีใหม่พร้อมใช้งาน
   LABEL_GAME_ENGINE_DESCRIPTION: >
-    A new technology is ready to be implemented:
+    เทคโนโลยีใหม่พร้อมที่จะนำไปใช้:
   LABEL_GAMEENGINE_DESCRIPTION_0: >
     ตอนนี้คุณสามารถสร้างเอ็นจิ้นเกมของคุณเองได้แล้ว เอนจิ้นเกมเพิ่มจำนวน
     คะแนนที่สร้างขึ้นโดยพนักงานของคุณ
@@ -808,31 +806,31 @@ th:
   LABEL_DS_SUPPORT_TITLE: Support
   LABEL_DS_SUPPORT_DESCRIPTION: |
     Adding technical support to the digital store.
-  LABEL_DS_REVIEW_TITLE: Review
+  LABEL_DS_REVIEW_TITLE: รีวิว
   LABEL_DS_REVIEW_DESCRIPTION: |
     Allows users to review a game.
-  LABEL_DS_STORE_TITLE: Store
+  LABEL_DS_STORE_TITLE: ร้านค้า
   LABEL_DS_STORE_DESCRIPTION: |
     Allows the competitors to sell games on your Digital Store.
-  LABEL_DS_ANALYTICS_TITLE: Analytics
+  LABEL_DS_ANALYTICS_TITLE: การวิเคราะห์
   LABEL_DS_ANALYTICS_DESCRIPTION: |
     Allows to collect the habits of users.
-  LABEL_DS_INVENTORY_TITLE: Inventory
+  LABEL_DS_INVENTORY_TITLE: ช่องเก็บของ
   LABEL_DS_INVENTORY_DESCRIPTION: |
     Allows users to own, exchange and resell items.
-  LABEL_DS_WISHLIST_TITLE: Wishlist
+  LABEL_DS_WISHLIST_TITLE: สิ่งที่อยากได้
   LABEL_DS_WISHLIST_DESCRIPTION: |
     Allows users to wishlist a game.
-  LABEL_DS_ACHIEVEMENTS_TITLE: Achievements
+  LABEL_DS_ACHIEVEMENTS_TITLE: รางวัลความสำเร็จ
   LABEL_DS_ACHIEVEMENTS_DESCRIPTION: |
     Allows users to track their progress in a game.
   LABEL_DS_GIFTCARDS_TITLE: Gift cards
   LABEL_DS_GIFTCARDS_DESCRIPTION: |
     Adding a new payment method.
-  LABEL_DS_MARKETPLACE_TITLE: Marketplace
+  LABEL_DS_MARKETPLACE_TITLE: ตลาด
   LABEL_DS_MARKETPLACE_DESCRIPTION: |
     Allows users to resell their game.
-  LABEL_DS_SALES_TITLE: Sales
+  LABEL_DS_SALES_TITLE: ขาย
   LABEL_DS_SALES_DESCRIPTION: |
     Allows you to create sales for a game.
   LABEL_HIRING_COSTS: Hiring costs
@@ -862,7 +860,7 @@ th:
     There are no games in development
   LABEL_ALREADY_REGISTERED: Attending
   LABEL_NET_PROFITS: Net profits
-  LABEL_ENERGY: Energy
+  LABEL_ENERGY: พลังงาน
   LABEL_LOSE: Game Over
   LABEL_MINIGAME_CRACK_DESCRIPTION: |
     To crack the game, you must decompile the binary code using the buttons at the bottom of the screen.
@@ -904,12 +902,12 @@ th:
   LABEL_AMOUNT_DESK: Number of desks
   LABEL_MORTGAGE_NOT_INTERESTED: You do not have enough property to be able to borrow money
   LABEL_THANKYOU_PURCHASING: |
-    Greetings,
+    สวัสดีทุกท่าน,
 
-    Show your support by buying City Game Studio.
-    Without your support I cannot keep working and improving City Game Studio.
-    
-    So if you enjoy playing City Game Studio and if you like indie games, please show your support.
+    แสดงการสนับสนุนของคุณโดยการซื้อ City Game Studio หากไม่มีการสนับสนุนจากคุณ 
+    ฉันก็ไม่สามารถทำงานและปรับปรุง City Game Studio ต่อไปได้ 
+    ดังนั้นหากคุณสนุกกับการเล่น City Game Studio และหากคุณชอบเกมอินดี้ 
+    โปรดแสดงการสนับสนุนของคุณ
 
     Binogure
   LABEL_CREATE_POSTMORTEM: ทำรายงานเกม
@@ -1835,10 +1833,10 @@ th:
     Contracts are now available. Completing a contract gives you money, experience and tips for a specific game genre.
 
   # Placeholder used for forms
-  PLACEHOLDER_COMPANY_NAME: Company name
-  PLACEHOLDER_GAME_GENRE: Game genre
-  PLACEHOLDER_GAME_NAME: Game name
-  PLACEHOLDER_PLAYER_NAME: Your name
+  PLACEHOLDER_COMPANY_NAME: ชื่อบริษัท
+  PLACEHOLDER_GAME_GENRE: ประเภทเกม
+  PLACEHOLDER_GAME_NAME: ชื่อเกม
+  PLACEHOLDER_PLAYER_NAME: ชื่อของคุณ
 
   LABEL_VERSION_BETA: Beta version
   LABEL_BREAK_LAW: |
